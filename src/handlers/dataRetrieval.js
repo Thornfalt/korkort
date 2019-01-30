@@ -33,9 +33,3 @@ exports.retrieveNewData = (personId) => {
     }
     return newUserData
 }
-
-// Detta vette fan asså....
-exports.sendData = (oldUserData, newUserData) => {
-    console.log('Skicka data?')
-    return newUserData;
-}
